@@ -8,4 +8,10 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  preview: {
+    allowedHosts: [
+      'team-task-manager-production-dee8.up.railway.app',
+      '.railway.app'
+    ]
+  }
 })
